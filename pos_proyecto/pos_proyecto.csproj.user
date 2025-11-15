@@ -4,10 +4,16 @@
     <Compile Update="controlDeUsuarioAgregarProducto.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="ControlDeUsuarioAgregarProveedor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="controlDeUsuarioProductosCategorias.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="controlDeUsuarioInfoProveedor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="controlDeUsuarioProveedoresCategorias.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="FormMenuAgregarProveedores.cs">

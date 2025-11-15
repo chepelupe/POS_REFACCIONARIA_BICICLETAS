@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace pos_proyecto
 {
-    public partial class ControlDeUsuarioAgregarProveedor : UserControl
+    public partial class controlDeUsuarioProveedoresCategorias : UserControl
     {
-        public ControlDeUsuarioAgregarProveedor()
+        public controlDeUsuarioProveedoresCategorias()
         {
             InitializeComponent();
         }
