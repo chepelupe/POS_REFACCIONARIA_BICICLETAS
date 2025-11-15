@@ -12,14 +12,23 @@ namespace pos_proyecto
             "Electrónicos", "Ropa", "Hogar", "Deportes"
         };
 
+        public static List<string> CategoriasProveedores { get; set; } = new List<string>
+        {
+            "Refacciones", "Servicios", "General"
+        };
+
         // BindingList - SE ACTUALIZA AUTOMÁTICAMENTE
         public static BindingList<Producto> Productos { get; set; } = new BindingList<Producto>();
+        public static BindingList<Proveedor> Proveedores { get; set; } = new BindingList<Proveedor>();
 
-        // Eventos para categorías (los mantenemos)
+        // Eventos para categorías y proveedores
         public static event Action CategoriasActualizadas;
+        public static event Action CategoriasProveedoresActualizadas;
+        public static event Action ProveedoresActualizados;
 
-        // Contador para IDs automáticos
+        // Contadores para IDs automáticos
         private static int contadorId = 1;
+        private static int contadorProveedorId = 1;
 
         public static void AgregarProducto(Producto producto)
         {
@@ -96,6 +105,74 @@ namespace pos_proyecto
                 }
 
                 CategoriasActualizadas?.Invoke(); // Disparar el evento
+            }
+        }
+
+        // Métodos para proveedores
+        public static void AgregarProveedor(Proveedor proveedor)
+        {
+            if (proveedor is null)
+            {
+                return;
+            }
+
+            if (proveedor.Id == 0)
+            {
+                proveedor.Id = contadorProveedorId++;
+            }
+
+            Proveedores.Add(proveedor);
+            ProveedoresActualizados?.Invoke();
+        }
+
+        public static void EliminarProveedor(int proveedorId)
+        {
+            var proveedor = Proveedores.FirstOrDefault(p => p.Id == proveedorId);
+            if (proveedor != null)
+            {
+                Proveedores.Remove(proveedor);
+                ProveedoresActualizados?.Invoke();
+            }
+        }
+
+        public static void AgregarCategoriaProveedor(string categoria)
+        {
+            if (!string.IsNullOrWhiteSpace(categoria) && !CategoriasProveedores.Contains(categoria))
+            {
+                CategoriasProveedores.Add(categoria);
+                CategoriasProveedoresActualizadas?.Invoke();
+            }
+        }
+
+        public static void EliminarCategoriaProveedor(string categoria)
+        {
+            if (CategoriasProveedores.Contains(categoria))
+            {
+                CategoriasProveedores.Remove(categoria);
+                CategoriasProveedoresActualizadas?.Invoke();
+            }
+        }
+
+        public static void ModificarCategoriaProveedor(string categoriaVieja, string categoriaNueva)
+        {
+            if (!string.IsNullOrWhiteSpace(categoriaVieja) &&
+                !string.IsNullOrWhiteSpace(categoriaNueva) &&
+                CategoriasProveedores.Contains(categoriaVieja) &&
+                !CategoriasProveedores.Contains(categoriaNueva))
+            {
+                int indice = CategoriasProveedores.IndexOf(categoriaVieja);
+                CategoriasProveedores[indice] = categoriaNueva;
+
+                foreach (var proveedor in Proveedores)
+                {
+                    if (proveedor.Categoria == categoriaVieja)
+                    {
+                        proveedor.Categoria = categoriaNueva;
+                    }
+                }
+
+                CategoriasProveedoresActualizadas?.Invoke();
+                ProveedoresActualizados?.Invoke();
             }
         }
     }

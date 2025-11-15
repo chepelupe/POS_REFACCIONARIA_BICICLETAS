@@ -32,11 +32,13 @@
             btn_agregar = new Button();
             txb_nombre = new TextBox();
             label1 = new Label();
+            lb_categorias = new ListBox();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(lb_categorias);
             groupBox1.Controls.Add(btn_agregar);
             groupBox1.Controls.Add(txb_nombre);
             groupBox1.Controls.Add(label1);
@@ -72,6 +74,15 @@
             label1.TabIndex = 0;
             label1.Text = "Categoria:";
             // 
+            // lb_categorias
+            // 
+            lb_categorias.FormattingEnabled = true;
+            lb_categorias.ItemHeight = 25;
+            lb_categorias.Location = new Point(11, 226);
+            lb_categorias.Name = "lb_categorias";
+            lb_categorias.Size = new Size(358, 179);
+            lb_categorias.TabIndex = 11;
+            // 
             // controlDeUsuarioProveedoresCategorias
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -90,5 +101,6 @@
         private Button btn_agregar;
         private TextBox txb_nombre;
         private Label label1;
+        private ListBox lb_categorias;
     }
 }

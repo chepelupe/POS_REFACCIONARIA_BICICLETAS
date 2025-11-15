@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             groupBox1 = new GroupBox();
-            textBox2 = new TextBox();
+            txb_telefono = new TextBox();
             label7 = new Label();
-            textBox1 = new TextBox();
+            txb_rfc = new TextBox();
             label6 = new Label();
             cb_categoria = new ComboBox();
             btn_agregar = new Button();
-            txb_cantidad = new TextBox();
+            txb_correo = new TextBox();
             txb_nombre = new TextBox();
             label4 = new Label();
             label2 = new Label();
@@ -45,13 +45,13 @@
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(textBox2);
+            groupBox1.Controls.Add(txb_telefono);
             groupBox1.Controls.Add(label7);
-            groupBox1.Controls.Add(textBox1);
+            groupBox1.Controls.Add(txb_rfc);
             groupBox1.Controls.Add(label6);
             groupBox1.Controls.Add(cb_categoria);
             groupBox1.Controls.Add(btn_agregar);
-            groupBox1.Controls.Add(txb_cantidad);
+            groupBox1.Controls.Add(txb_correo);
             groupBox1.Controls.Add(txb_nombre);
             groupBox1.Controls.Add(label4);
             groupBox1.Controls.Add(label2);
@@ -63,12 +63,12 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Datos del proveedor a agregar";
             // 
-            // textBox2
+            // txb_telefono
             // 
-            textBox2.Location = new Point(194, 148);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(150, 31);
-            textBox2.TabIndex = 15;
+            txb_telefono.Location = new Point(194, 148);
+            txb_telefono.Name = "txb_telefono";
+            txb_telefono.Size = new Size(150, 31);
+            txb_telefono.TabIndex = 15;
             // 
             // label7
             // 
@@ -79,12 +79,12 @@
             label7.TabIndex = 14;
             label7.Text = "Teléfono:";
             // 
-            // textBox1
+            // txb_rfc
             // 
-            textBox1.Location = new Point(194, 96);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(150, 31);
-            textBox1.TabIndex = 13;
+            txb_rfc.Location = new Point(194, 96);
+            txb_rfc.Name = "txb_rfc";
+            txb_rfc.Size = new Size(150, 31);
+            txb_rfc.TabIndex = 13;
             // 
             // label6
             // 
@@ -112,12 +112,12 @@
             btn_agregar.Text = "Agregar proveedor";
             btn_agregar.UseVisualStyleBackColor = true;
             // 
-            // txb_cantidad
+            // txb_correo
             // 
-            txb_cantidad.Location = new Point(194, 199);
-            txb_cantidad.Name = "txb_cantidad";
-            txb_cantidad.Size = new Size(150, 31);
-            txb_cantidad.TabIndex = 8;
+            txb_correo.Location = new Point(194, 199);
+            txb_correo.Name = "txb_correo";
+            txb_correo.Size = new Size(150, 31);
+            txb_correo.TabIndex = 8;
             // 
             // txb_nombre
             // 
@@ -168,13 +168,13 @@
         #endregion
 
         private GroupBox groupBox1;
-        private TextBox textBox2;
+        private TextBox txb_telefono;
         private Label label7;
-        private TextBox textBox1;
+        private TextBox txb_rfc;
         private Label label6;
         private ComboBox cb_categoria;
         private Button btn_agregar;
-        private TextBox txb_cantidad;
+        private TextBox txb_correo;
         private TextBox txb_nombre;
         private Label label4;
         private Label label2;
