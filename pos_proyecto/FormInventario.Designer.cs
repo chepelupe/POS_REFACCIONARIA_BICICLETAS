@@ -61,7 +61,6 @@
             btn_eliminar.TabIndex = 2;
             btn_eliminar.Text = "ELIMINAR";
             btn_eliminar.UseVisualStyleBackColor = true;
-            btn_eliminar.Click += btn_eliminar_Click_1;
             // 
             // btn_modificar
             // 
@@ -87,7 +86,6 @@
             btn_buscar.TabIndex = 5;
             btn_buscar.Text = "BUSCAR";
             btn_buscar.UseVisualStyleBackColor = true;
-            btn_buscar.Click += btn_buscar_Click;
             // 
             // groupBox1
             // 
@@ -139,7 +137,6 @@
             button1.TabIndex = 8;
             button1.Text = "Salir";
             button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click_1;
             // 
             // dgv_listaInventario
             // 
@@ -150,7 +147,7 @@
             dgv_listaInventario.Size = new Size(862, 345);
             dgv_listaInventario.TabIndex = 11;
             // 
-            // Form1
+            // FormInventario
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -159,21 +156,23 @@
             Controls.Add(button1);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
-            Name = "Form1";
-            Text = "Form1";
+            Name = "FormInventario";
+            Text = "Inventario";
             groupBox1.ResumeLayout(false);
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dgv_listaInventario).EndInit();
             ResumeLayout(false);
 
-
-
-            //
-            btn_agregar.Click += new System.EventHandler(this.btn_agregar_Click);
-            btn_modificar.Click += new System.EventHandler(this.btn_modificar_Click);
-            tb_abuscar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_abuscar_KeyPress);
-            cb_categoria_busqueda.SelectedIndexChanged += new System.EventHandler(this.cb_categoria_busqueda_SelectedIndexChanged);
+            // Asignar eventos en el diseñador
+            btn_agregar.Click += new System.EventHandler(btn_agregar_Click);
+            btn_eliminar.Click += new System.EventHandler(btn_eliminar_Click);
+            btn_modificar.Click += new System.EventHandler(btn_modificar_Click);
+            btn_buscar.Click += new System.EventHandler(btn_buscar_Click);
+            button1.Click += new System.EventHandler(button1_Click);
+            tb_abuscar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(tb_abuscar_KeyPress);
+            cb_categoria_busqueda.SelectedIndexChanged += new System.EventHandler(cb_categoria_busqueda_SelectedIndexChanged);
+            dgv_listaInventario.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(dgv_listaInventario_CellEndEdit);
         }
 
         #endregion

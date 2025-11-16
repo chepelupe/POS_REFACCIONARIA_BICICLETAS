@@ -1,6 +1,6 @@
 ﻿namespace pos_proyecto
 {
-    partial class FormInicioSesioncs
+    partial class FormInicioSesion
     {
         /// <summary>
         /// Required designer variable.

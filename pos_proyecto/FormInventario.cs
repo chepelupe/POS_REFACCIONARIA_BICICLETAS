@@ -1,66 +1,62 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace pos_proyecto
 {
     public partial class FormInventario : Form
     {
-        private BindingList<Producto> productosFiltrados; // Lista para productos filtrados
+        private BindingList<Producto> productosFiltrados;
 
         public FormInventario()
         {
             InitializeComponent();
-            ConfigurarDataGridView();
+            ConfigurarEventos();
             ConfigurarBuscador();
             CargarDatosEnDataGridView();
         }
 
-        private void ConfigurarDataGridView()
+        private void ConfigurarEventos()
         {
-            // Configurar el DataGridView para edición directa
-            dgv_listaInventario.AllowUserToAddRows = false;
-            dgv_listaInventario.EditMode = DataGridViewEditMode.EditOnEnter;
+            btn_agregar.Click += btn_agregar_Click;
+            btn_eliminar.Click += btn_eliminar_Click;
+            btn_modificar.Click += btn_modificar_Click;
+            button1.Click += button1_Click;
+            btn_buscar.Click += btn_buscar_Click;
+
+            // Permitir modificación directa en el DataGridView
+            dgv_listaInventario.CellEndEdit += dgv_listaInventario_CellEndEdit;
         }
 
         private void ConfigurarBuscador()
         {
-            // Configurar opciones del ComboBox de búsqueda
             cb_categoria_busqueda.Items.AddRange(new string[] { "Nombre", "Categoría", "ID", "Descripción" });
-            cb_categoria_busqueda.SelectedIndex = 0; // Seleccionar "Nombre" por defecto
-
-            // Crear la lista filtrada
+            cb_categoria_busqueda.SelectedIndex = 0;
             productosFiltrados = new BindingList<Producto>();
         }
 
         private void CargarDatosEnDataGridView()
         {
-            // Mostrar todos los productos
             productosFiltrados.Clear();
             foreach (var producto in DatosCompartidos.Productos)
             {
                 productosFiltrados.Add(producto);
             }
-
             dgv_listaInventario.DataSource = productosFiltrados;
         }
 
         private void btn_agregar_Click(object sender, EventArgs e)
         {
-            // Abrir formulario para agregar productos
             FormMenuAgregarProductos formAgregar = new FormMenuAgregarProductos();
-            formAgregar.ShowDialog();
-
-            // Refrescar los datos después de cerrar el formulario
-            CargarDatosEnDataGridView();
+            if (formAgregar.ShowDialog() == DialogResult.OK)
+            {
+                CargarDatosEnDataGridView();
+            }
         }
 
-        private void btn_eliminar_Click_1(object sender, EventArgs e)
+        private void btn_eliminar_Click(object sender, EventArgs e)
         {
-            // Eliminar producto seleccionado
             if (dgv_listaInventario.CurrentRow != null && dgv_listaInventario.CurrentRow.DataBoundItem is Producto productoSeleccionado)
             {
                 DialogResult resultado = MessageBox.Show(
@@ -72,7 +68,7 @@ namespace pos_proyecto
                 if (resultado == DialogResult.Yes)
                 {
                     DatosCompartidos.EliminarProductoForzado(productoSeleccionado.Id);
-                    CargarDatosEnDataGridView(); // Recargar datos
+                    CargarDatosEnDataGridView();
                 }
             }
             else
@@ -83,7 +79,6 @@ namespace pos_proyecto
 
         private void btn_modificar_Click(object sender, EventArgs e)
         {
-            // Modificar producto seleccionado
             if (dgv_listaInventario.CurrentRow != null && dgv_listaInventario.CurrentRow.DataBoundItem is Producto productoSeleccionado)
             {
                 DialogResult resultado = MessageBox.Show(
@@ -94,13 +89,11 @@ namespace pos_proyecto
 
                 if (resultado == DialogResult.Yes)
                 {
-                    // Los cambios ya están en el BindingList, solo confirmamos
                     dgv_listaInventario.Refresh();
                     MessageBox.Show("Cambios guardados correctamente.");
                 }
                 else
                 {
-                    // Recargar los datos originales si el usuario cancela
                     CargarDatosEnDataGridView();
                 }
             }
@@ -110,66 +103,22 @@ namespace pos_proyecto
             }
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void btn_buscar_Click(object sender, EventArgs e)
         {
-            // Salir de la aplicación
-            Application.Exit();
+            RealizarBusqueda();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            // Cargar datos de ejemplo (opcional)
-            CargarDatosEjemplo();
-        }
-
-        private void CargarDatosEjemplo()
-        {
-            // Agregar algunos productos de ejemplo si no existen
-            if (DatosCompartidos.Productos.Count == 0)
-            {
-                DatosCompartidos.AgregarProducto(new Producto
-                {
-                    Nombre = "Laptop",
-                    Categoria = "Electrónicos",
-                    Precio = 15000,
-                    Cantidad = 5,
-                    Descripcion = "Laptop gaming"
-                });
-
-                DatosCompartidos.AgregarProducto(new Producto
-                {
-                    Nombre = "Mouse",
-                    Categoria = "Electrónicos",
-                    Precio = 250,
-                    Cantidad = 10,
-                    Descripcion = "Mouse inalámbrico"
-                });
-
-                DatosCompartidos.AgregarProducto(new Producto
-                {
-                    Nombre = "Camisa",
-                    Categoria = "Ropa",
-                    Precio = 300,
-                    Cantidad = 15,
-                    Descripcion = "Camisa de algodón"
-                });
-            }
-        }
-
-        // Método para manejar la búsqueda
         private void RealizarBusqueda()
         {
             string textoBusqueda = tb_abuscar.Text.Trim();
             string criterio = cb_categoria_busqueda.SelectedItem?.ToString() ?? "Nombre";
 
-            // Si el texto de búsqueda está vacío, mostrar todos los productos
             if (string.IsNullOrWhiteSpace(textoBusqueda))
             {
                 CargarDatosEnDataGridView();
                 return;
             }
 
-            // Filtrar productos según el criterio seleccionado
             productosFiltrados.Clear();
 
             foreach (var producto in DatosCompartidos.Productos)
@@ -198,36 +147,40 @@ namespace pos_proyecto
                 }
             }
 
-            // Actualizar el DataGridView con los resultados filtrados
             dgv_listaInventario.DataSource = productosFiltrados;
 
-            // Mostrar mensaje si no se encontraron resultados
             if (productosFiltrados.Count == 0)
             {
                 MessageBox.Show("No se encontraron productos que coincidan con la búsqueda.", "Búsqueda", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
-        // Evento para el botón Buscar
-        private void btn_buscar_Click(object sender, EventArgs e)
-        {
-            RealizarBusqueda();
-        }
-
-        // Evento para buscar al presionar Enter en el TextBox (CORREGIDO)
         private void tb_abuscar_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)Keys.Enter)
             {
                 RealizarBusqueda();
-                e.Handled = true; // Evitar el sonido del sistema
+                e.Handled = true;
             }
         }
 
-        // Evento para cuando cambia el ComboBox (CORREGIDO)
         private void cb_categoria_busqueda_SelectedIndexChanged(object sender, EventArgs e)
         {
             // Opcional: puedes agregar funcionalidad aquí si lo deseas
+        }
+
+        private void dgv_listaInventario_CellEndEdit(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0 && dgv_listaInventario.Rows[e.RowIndex].DataBoundItem is Producto producto)
+            {
+                MessageBox.Show("Cambios guardados automáticamente", "Información",
+                              MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

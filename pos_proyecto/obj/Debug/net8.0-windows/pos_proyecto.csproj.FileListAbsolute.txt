@@ -13,7 +13,6 @@ C:\Users\software\source\repos\pos_proyecto\pos_proyecto\obj\Debug\net8.0-window
 C:\Users\software\source\repos\pos_proyecto\pos_proyecto\obj\Debug\net8.0-windows\pos_proyecto.pdb
 C:\Users\software\source\repos\pos_proyecto\pos_proyecto\obj\Debug\net8.0-windows\pos_proyecto.genruntimeconfig.cache
 C:\Users\software\source\repos\pos_proyecto\pos_proyecto\obj\Debug\net8.0-windows\ref\pos_proyecto.dll
-C:\Users\software\source\repos\pos_proyecto\pos_proyecto\obj\Debug\net8.0-windows\pos_proyecto.controlDeUsuarioCategorias.resources
 C:\Users\software\source\repos\pos_proyecto\pos_proyecto\obj\Debug\net8.0-windows\pos_proyecto.controlDeUsuarioAgregarProducto.resources
 C:\Users\software\source\repos\pos_proyecto\pos_proyecto\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\software\source\repos\pos_proyecto\pos_proyecto\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
@@ -22,8 +21,14 @@ C:\Users\software\source\repos\pos_proyecto\pos_proyecto\obj\Debug\net8.0-window
 C:\Users\software\source\repos\pos_proyecto\pos_proyecto\obj\Debug\net8.0-windows\pos_proy.DDFE74A3.Up2Date
 C:\Users\software\source\repos\pos_proyecto\pos_proyecto\obj\Debug\net8.0-windows\pos_proyecto.FormInterfazVentas.resources
 C:\Users\software\source\repos\pos_proyecto\pos_proyecto\obj\Debug\net8.0-windows\pos_proyecto.controlDeUsuarioInfoProveedor.resources
-C:\Users\software\source\repos\pos_proyecto\pos_proyecto\obj\Debug\net8.0-windows\pos_proyecto.FormAgregarProveedores.resources
-C:\Users\software\source\repos\pos_proyecto\pos_proyecto\obj\Debug\net8.0-windows\pos_proyecto.FormInicioSesioncs.resources
 C:\Users\software\source\repos\pos_proyecto\pos_proyecto\obj\Debug\net8.0-windows\pos_proyecto.FormInventario.resources
 C:\Users\software\source\repos\pos_proyecto\pos_proyecto\obj\Debug\net8.0-windows\pos_proyecto.FormMenuAgregarProductos.resources
 C:\Users\software\source\repos\pos_proyecto\pos_proyecto\obj\Debug\net8.0-windows\pos_proyecto.FormProveedor.resources
+C:\Users\software\source\repos\pos_proyecto\pos_proyecto\obj\Debug\net8.0-windows\pos_proyecto.ControlDeUsuarioAgregarProveedor.resources
+C:\Users\software\source\repos\pos_proyecto\pos_proyecto\obj\Debug\net8.0-windows\pos_proyecto.controlDeUsuarioProductosCategorias.resources
+C:\Users\software\source\repos\pos_proyecto\pos_proyecto\obj\Debug\net8.0-windows\pos_proyecto.controlDeUsuarioProveedoresCategorias.resources
+C:\Users\software\source\repos\pos_proyecto\pos_proyecto\obj\Debug\net8.0-windows\pos_proyecto.FormMenuAgregarProveedores.resources
+C:\Users\software\source\repos\pos_proyecto\pos_proyecto\obj\Debug\net8.0-windows\pos_proyecto.sourcelink.json
+C:\Users\software\source\repos\pos_proyecto\pos_proyecto\obj\Debug\net8.0-windows\pos_proyecto.FormBuscarProducto.resources
+C:\Users\software\source\repos\pos_proyecto\pos_proyecto\obj\Debug\net8.0-windows\pos_proyecto.FormInicioSesion.resources
+C:\Users\software\source\repos\pos_proyecto\pos_proyecto\obj\Debug\net8.0-windows\pos_proyecto.FormMenuOpciones.resources
