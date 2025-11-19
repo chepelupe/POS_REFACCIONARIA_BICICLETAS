@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "7azPTbYSKWw=",
+  "dgSpecHash": "XEHaa7tJANM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\software\\source\\repos\\pos_proyecto\\pos_proyecto\\pos_proyecto.csproj",
+  "projectFilePath": "C:\\Users\\Joseg\\Source\\Repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\pos_proyecto.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\software\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
-    "C:\\Users\\software\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
-    "C:\\Users\\software\\.nuget\\packages\\mysqlconnector\\2.4.0\\mysqlconnector.2.4.0.nupkg.sha512"
+    "C:\\Users\\Joseg\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\Joseg\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\Joseg\\.nuget\\packages\\mysqlconnector\\2.4.0\\mysqlconnector.2.4.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -19,6 +19,18 @@
     <Compile Update="FormBuscarProducto.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormCaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormComprasNuevaCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FormMenuAgregarProveedores.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -38,6 +50,12 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormReportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEmpleados.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
