@@ -143,7 +143,7 @@
             dataGridView1.RowHeadersWidth = 62;
             dataGridView1.Size = new Size(819, 175);
             dataGridView1.TabIndex = 4;
-            dataGridView1.CellContentClick += this.dataGridView1_CellContentClick;
+            
             // 
             // CLAVE
             // 

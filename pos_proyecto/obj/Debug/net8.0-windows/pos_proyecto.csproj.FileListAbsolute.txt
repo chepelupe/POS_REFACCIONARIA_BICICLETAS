@@ -66,3 +66,9 @@ C:\Users\Joseg\Source\Repos\POS_REFACCIONARIA_BICICLETAS\pos_proyecto\obj\Debug\
 C:\Users\Joseg\Source\Repos\POS_REFACCIONARIA_BICICLETAS\pos_proyecto\obj\Debug\net8.0-windows\pos_proyecto.pdb
 C:\Users\Joseg\Source\Repos\POS_REFACCIONARIA_BICICLETAS\pos_proyecto\obj\Debug\net8.0-windows\pos_proyecto.genruntimeconfig.cache
 C:\Users\Joseg\Source\Repos\POS_REFACCIONARIA_BICICLETAS\pos_proyecto\obj\Debug\net8.0-windows\ref\pos_proyecto.dll
+C:\Users\Joseg\Source\Repos\POS_REFACCIONARIA_BICICLETAS\pos_proyecto\obj\Debug\net8.0-windows\pos_proyecto.FormCaja.resources
+C:\Users\Joseg\Source\Repos\POS_REFACCIONARIA_BICICLETAS\pos_proyecto\obj\Debug\net8.0-windows\pos_proyecto.FormClientes.resources
+C:\Users\Joseg\Source\Repos\POS_REFACCIONARIA_BICICLETAS\pos_proyecto\obj\Debug\net8.0-windows\pos_proyecto.FormCompras.resources
+C:\Users\Joseg\Source\Repos\POS_REFACCIONARIA_BICICLETAS\pos_proyecto\obj\Debug\net8.0-windows\pos_proyecto.FormComprasNuevaCompra.resources
+C:\Users\Joseg\Source\Repos\POS_REFACCIONARIA_BICICLETAS\pos_proyecto\obj\Debug\net8.0-windows\pos_proyecto.FormEmpleados.resources
+C:\Users\Joseg\Source\Repos\POS_REFACCIONARIA_BICICLETAS\pos_proyecto\obj\Debug\net8.0-windows\pos_proyecto.FormReportes.resources
