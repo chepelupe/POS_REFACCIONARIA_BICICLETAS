@@ -11,7 +11,7 @@
         "projectName": "pos_proyecto",
         "projectPath": "C:\\Users\\Joseg\\Source\\Repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\pos_proyecto.csproj",
         "packagesPath": "C:\\Users\\Joseg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\obj\\",
+        "outputPath": "C:\\Users\\Joseg\\Source\\Repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
