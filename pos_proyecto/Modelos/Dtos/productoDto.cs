@@ -1,4 +1,6 @@
-﻿namespace pos_proyecto.Modelos
+﻿using System;
+
+namespace pos_proyecto.Modelos
 {
     public class ProductoDto
     {

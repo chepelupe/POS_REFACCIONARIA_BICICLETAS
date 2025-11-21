@@ -1,10 +1,10 @@
-﻿using Newtonsoft.Json;
-using pos_proyecto.Modelos.Dtos;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+using System.Collections.Generic;
+using pos_proyecto.Modelos;
 
 namespace pos_proyecto.Servicios
 {
@@ -15,7 +15,7 @@ namespace pos_proyecto.Servicios
 
         public ApiService()
         {
-            _baseUrl = "http://localhost:5000/api"; // Tu servidor Python
+            _baseUrl = "http://localhost:5000/api";
             _httpClient = new HttpClient();
             _httpClient.Timeout = TimeSpan.FromSeconds(30);
         }
@@ -64,7 +64,7 @@ namespace pos_proyecto.Servicios
             }
         }
 
-        // MÉTODOS ESPECÍFICOS PARA TU POS
+        // Métodos específicos
         public async Task<ApiResponse<List<ProductoDto>>> ObtenerProductosAsync()
         {
             return await GetAsync<List<ProductoDto>>("/productos");
@@ -78,26 +78,6 @@ namespace pos_proyecto.Servicios
         public async Task<ApiResponse<bool>> CrearProductoAsync(ProductoDto producto)
         {
             return await PostAsync<bool>("/productos", producto);
-        }
-
-        public async Task<ApiResponse<bool>> ActualizarProductoAsync(int id, ProductoDto producto)
-        {
-            return await PostAsync<bool>($"/productos/{id}", producto);
-        }
-
-        public async Task<ApiResponse<bool>> EliminarProductoAsync(int id)
-        {
-            return await PostAsync<bool>($"/productos/{id}/eliminar", new { });
-        }
-
-        public async Task<ApiResponse<List<ProveedorDto>>> ObtenerProveedoresAsync()
-        {
-            return await GetAsync<List<ProveedorDto>>("/proveedores");
-        }
-
-        public async Task<ApiResponse<bool>> CrearProveedorAsync(ProveedorDto proveedor)
-        {
-            return await PostAsync<bool>("/proveedores", proveedor);
         }
 
         public async Task<ApiResponse<bool>> CrearVentaAsync(VentaDto venta)

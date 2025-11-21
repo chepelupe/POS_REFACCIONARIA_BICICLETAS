@@ -1,5 +1,7 @@
 ﻿using pos_proyecto.Sockets;
 using System;
+using pos_proyecto.Servicios;
+using pos_proyecto.Sockets;
 
 namespace pos_proyecto.Servicios
 {
