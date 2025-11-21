@@ -1,7 +1,152 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\controldeusuarioagregarproducto.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\controldeusuarioagregarproducto.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\controldeusuarioagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\controldeusuarioagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\controldeusuarioagregarproveedor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\controldeusuarioagregarproveedor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\controldeusuarioagregarproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\controldeusuarioagregarproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\controldeusuarioinfoproveedor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\controldeusuarioinfoproveedor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\controldeusuarioinfoproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\controldeusuarioinfoproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\controldeusuarioproductoscategorias.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\controldeusuarioproductoscategorias.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\controldeusuarioproductoscategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\controldeusuarioproductoscategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\controldeusuarioproveedorescategorias.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\controldeusuarioproveedorescategorias.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\controldeusuarioproveedorescategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\controldeusuarioproveedorescategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\formbuscarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\formbuscarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\formbuscarproducto.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\formbuscarproducto.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\formcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\formcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\formcaja.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\formcaja.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\formclientes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\formclientes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\formclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\formclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\formcompras.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\formcompras.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\formcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\formcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\formcomprasnuevacompra.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\formcomprasnuevacompra.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\formcomprasnuevacompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\formcomprasnuevacompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\formempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\formempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\formempleados.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\formempleados.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\forminterfazventas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\forminterfazventas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\forminterfazventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\forminterfazventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\forminventario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\forminventario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\forminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\forminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\formmenuagregarproductos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\formmenuagregarproductos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\formmenuagregarproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\formmenuagregarproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\formmenuagregarproveedores.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\formmenuagregarproveedores.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\formmenuagregarproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\formmenuagregarproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\formmenuopciones.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\formmenuopciones.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\formmenuopciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\formmenuopciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\formreportes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\formreportes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\formproveedor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\formproveedor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\forminiciosesion.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\forminiciosesion.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|c:\\users\\joseg\\source\\repos\\pos_refaccionaria_bicicletas\\pos_proyecto\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E584E5-EDF5-4B0B-9527-187D9EBD346D}|pos_proyecto\\pos_proyecto.csproj|solutionrelative:pos_proyecto\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +154,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +171,474 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "controlDeUsuarioAgregarProducto.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\controlDeUsuarioAgregarProducto.Designer.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\controlDeUsuarioAgregarProducto.Designer.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\controlDeUsuarioAgregarProducto.Designer.cs",
+              "RelativeToolTip": "pos_proyecto\\controlDeUsuarioAgregarProducto.Designer.cs",
+              "ViewState": "AgIAAAsBAAAAAAAAAAAcwC8BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T05:22:51.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "controlDeUsuarioAgregarProducto.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\controlDeUsuarioAgregarProducto.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\controlDeUsuarioAgregarProducto.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\controlDeUsuarioAgregarProducto.cs",
+              "RelativeToolTip": "pos_proyecto\\controlDeUsuarioAgregarProducto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T05:22:31.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "controlDeUsuarioAgregarProveedor.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\controlDeUsuarioAgregarProveedor.Designer.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\controlDeUsuarioAgregarProveedor.Designer.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\controlDeUsuarioAgregarProveedor.Designer.cs",
+              "RelativeToolTip": "pos_proyecto\\controlDeUsuarioAgregarProveedor.Designer.cs",
+              "ViewState": "AgIAALAAAAAAAAAAAAAcwNQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T05:21:03.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "controlDeUsuarioAgregarProveedor.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\controlDeUsuarioAgregarProveedor.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\controlDeUsuarioAgregarProveedor.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\controlDeUsuarioAgregarProveedor.cs",
+              "RelativeToolTip": "pos_proyecto\\controlDeUsuarioAgregarProveedor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T05:20:42.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "controlDeUsuarioInfoProveedor.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\controlDeUsuarioInfoProveedor.Designer.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\controlDeUsuarioInfoProveedor.Designer.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\controlDeUsuarioInfoProveedor.Designer.cs",
+              "RelativeToolTip": "pos_proyecto\\controlDeUsuarioInfoProveedor.Designer.cs",
+              "ViewState": "AgIAAEkBAAAAAAAAAAAcwG0BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T05:18:24.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "controlDeUsuarioInfoProveedor.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\controlDeUsuarioInfoProveedor.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\controlDeUsuarioInfoProveedor.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\controlDeUsuarioInfoProveedor.cs",
+              "RelativeToolTip": "pos_proyecto\\controlDeUsuarioInfoProveedor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T05:18:21.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "controlDeUsuarioProductosCategorias.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\controlDeUsuarioProductosCategorias.Designer.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\controlDeUsuarioProductosCategorias.Designer.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\controlDeUsuarioProductosCategorias.Designer.cs",
+              "RelativeToolTip": "pos_proyecto\\controlDeUsuarioProductosCategorias.Designer.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAcwK0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T05:17:03.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "controlDeUsuarioProductosCategorias.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\controlDeUsuarioProductosCategorias.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\controlDeUsuarioProductosCategorias.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\controlDeUsuarioProductosCategorias.cs",
+              "RelativeToolTip": "pos_proyecto\\controlDeUsuarioProductosCategorias.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T05:16:41.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "controlDeUsuarioProveedoresCategorias.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\controlDeUsuarioProveedoresCategorias.Designer.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\controlDeUsuarioProveedoresCategorias.Designer.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\controlDeUsuarioProveedoresCategorias.Designer.cs",
+              "RelativeToolTip": "pos_proyecto\\controlDeUsuarioProveedoresCategorias.Designer.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAcwJsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T05:15:29.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "controlDeUsuarioProveedoresCategorias.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\controlDeUsuarioProveedoresCategorias.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\controlDeUsuarioProveedoresCategorias.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\controlDeUsuarioProveedoresCategorias.cs",
+              "RelativeToolTip": "pos_proyecto\\controlDeUsuarioProveedoresCategorias.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T05:14:49.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormBuscarProducto.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormBuscarProducto.Designer.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\FormBuscarProducto.Designer.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormBuscarProducto.Designer.cs",
+              "RelativeToolTip": "pos_proyecto\\FormBuscarProducto.Designer.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAcwI0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T05:06:46.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormBuscarProducto.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormBuscarProducto.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\FormBuscarProducto.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormBuscarProducto.cs",
+              "RelativeToolTip": "pos_proyecto\\FormBuscarProducto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T05:06:38.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FormCaja.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormCaja.Designer.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\FormCaja.Designer.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormCaja.Designer.cs",
+              "RelativeToolTip": "pos_proyecto\\FormCaja.Designer.cs",
+              "ViewState": "AgIAAFoBAAAAAAAAAAAcwH4BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T05:02:13.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FormCaja.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormCaja.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\FormCaja.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormCaja.cs",
+              "RelativeToolTip": "pos_proyecto\\FormCaja.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T05:02:10.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FormClientes.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormClientes.Designer.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\FormClientes.Designer.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormClientes.Designer.cs",
+              "RelativeToolTip": "pos_proyecto\\FormClientes.Designer.cs",
+              "ViewState": "AgIAAM4BAAAAAAAAAAAcwPIBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T04:57:23.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FormClientes.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormClientes.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\FormClientes.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormClientes.cs",
+              "RelativeToolTip": "pos_proyecto\\FormClientes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T04:57:19.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FormCompras.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormCompras.Designer.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\FormCompras.Designer.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormCompras.Designer.cs",
+              "RelativeToolTip": "pos_proyecto\\FormCompras.Designer.cs",
+              "ViewState": "AgIAAM4BAAAAAAAAAAAcwPIBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T04:53:00.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FormCompras.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormCompras.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\FormCompras.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormCompras.cs",
+              "RelativeToolTip": "pos_proyecto\\FormCompras.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T04:52:57.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FormComprasNuevaCompra.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormComprasNuevaCompra.Designer.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\FormComprasNuevaCompra.Designer.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormComprasNuevaCompra.Designer.cs",
+              "RelativeToolTip": "pos_proyecto\\FormComprasNuevaCompra.Designer.cs",
+              "ViewState": "AgIAAP8BAAAAAAAAAAAcwCMCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T04:48:01.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FormComprasNuevaCompra.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormComprasNuevaCompra.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\FormComprasNuevaCompra.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormComprasNuevaCompra.cs",
+              "RelativeToolTip": "pos_proyecto\\FormComprasNuevaCompra.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T04:47:58.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FormEmpleados.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormEmpleados.Designer.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\FormEmpleados.Designer.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormEmpleados.Designer.cs",
+              "RelativeToolTip": "pos_proyecto\\FormEmpleados.Designer.cs",
+              "ViewState": "AgIAAMEBAAAAAAAAAAAcwOUBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T04:43:25.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FormEmpleados.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormEmpleados.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\FormEmpleados.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormEmpleados.cs",
+              "RelativeToolTip": "pos_proyecto\\FormEmpleados.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T04:43:21.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FormInterfazVentas.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormInterfazVentas.Designer.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\FormInterfazVentas.Designer.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormInterfazVentas.Designer.cs",
+              "RelativeToolTip": "pos_proyecto\\FormInterfazVentas.Designer.cs",
+              "ViewState": "AgIAAPgCAAAAAAAAAAAcwBwDAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T04:29:23.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FormInterfazVentas.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormInterfazVentas.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\FormInterfazVentas.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormInterfazVentas.cs",
+              "RelativeToolTip": "pos_proyecto\\FormInterfazVentas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T04:29:16.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FormInventario.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormInventario.Designer.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\FormInventario.Designer.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormInventario.Designer.cs",
+              "RelativeToolTip": "pos_proyecto\\FormInventario.Designer.cs",
+              "ViewState": "AgIAAO8AAAAAAAAAAAAcwBMBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T04:26:45.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FormInventario.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormInventario.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\FormInventario.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormInventario.cs",
+              "RelativeToolTip": "pos_proyecto\\FormInventario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T04:26:24.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FormMenuAgregarProductos.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormMenuAgregarProductos.Designer.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\FormMenuAgregarProductos.Designer.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormMenuAgregarProductos.Designer.cs",
+              "RelativeToolTip": "pos_proyecto\\FormMenuAgregarProductos.Designer.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAcwJwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T04:25:06.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FormMenuAgregarProductos.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormMenuAgregarProductos.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\FormMenuAgregarProductos.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormMenuAgregarProductos.cs",
+              "RelativeToolTip": "pos_proyecto\\FormMenuAgregarProductos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T04:24:57.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FormMenuAgregarProveedores.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormMenuAgregarProveedores.Designer.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\FormMenuAgregarProveedores.Designer.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormMenuAgregarProveedores.Designer.cs",
+              "RelativeToolTip": "pos_proyecto\\FormMenuAgregarProveedores.Designer.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAcwKkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T04:23:02.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FormMenuAgregarProveedores.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormMenuAgregarProveedores.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\FormMenuAgregarProveedores.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormMenuAgregarProveedores.cs",
+              "RelativeToolTip": "pos_proyecto\\FormMenuAgregarProveedores.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T04:22:50.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FormMenuOpciones.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormMenuOpciones.Designer.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\FormMenuOpciones.Designer.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormMenuOpciones.Designer.cs",
+              "RelativeToolTip": "pos_proyecto\\FormMenuOpciones.Designer.cs",
+              "ViewState": "AgIAANIAAAAAAAAAAAAcwPYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T04:20:41.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "FormMenuOpciones.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormMenuOpciones.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\FormMenuOpciones.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormMenuOpciones.cs",
+              "RelativeToolTip": "pos_proyecto\\FormMenuOpciones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T04:20:29.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "FormProveedor.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormProveedor.Designer.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\FormProveedor.Designer.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormProveedor.Designer.cs",
+              "RelativeToolTip": "pos_proyecto\\FormProveedor.Designer.cs",
+              "ViewState": "AgIAAM0BAAAAAAAAAAAcwPEBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T04:15:21.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "FormReportes.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormReportes.Designer.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\FormReportes.Designer.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormReportes.Designer.cs",
+              "RelativeToolTip": "pos_proyecto\\FormReportes.Designer.cs",
+              "ViewState": "AgIAAN0AAAAAAAAAAAAcwAEBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T04:13:03.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "FormInicioSesion.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormInicioSesion.Designer.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\FormInicioSesion.Designer.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormInicioSesion.Designer.cs",
+              "RelativeToolTip": "pos_proyecto\\FormInicioSesion.Designer.cs",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAcwOYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T04:08:25.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "FormInicioSesion.cs",
+              "DocumentMoniker": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormInicioSesion.cs",
+              "RelativeDocumentMoniker": "pos_proyecto\\FormInicioSesion.cs",
+              "ToolTip": "C:\\Users\\Joseg\\source\\repos\\POS_REFACCIONARIA_BICICLETAS\\pos_proyecto\\FormInicioSesion.cs",
+              "RelativeToolTip": "pos_proyecto\\FormInicioSesion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T04:08:11.859Z",
+              "EditorCaption": ""
             }
           ]
         }

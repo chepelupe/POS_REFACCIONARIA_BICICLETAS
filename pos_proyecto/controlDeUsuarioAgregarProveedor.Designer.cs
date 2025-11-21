@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             groupBox1 = new GroupBox();
+            cmbEstatus = new ComboBox();
+            lblEstatus = new Label();
             txb_telefono = new TextBox();
             label7 = new Label();
             txb_rfc = new TextBox();
@@ -45,6 +47,8 @@
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(cmbEstatus);
+            groupBox1.Controls.Add(lblEstatus);
             groupBox1.Controls.Add(txb_telefono);
             groupBox1.Controls.Add(label7);
             groupBox1.Controls.Add(txb_rfc);
@@ -58,22 +62,42 @@
             groupBox1.Controls.Add(label1);
             groupBox1.Location = new Point(3, 3);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(397, 426);
+            groupBox1.Size = new Size(450, 450);
             groupBox1.TabIndex = 3;
             groupBox1.TabStop = false;
-            groupBox1.Text = "Datos del proveedor a agregar";
+            groupBox1.Text = "Registro de Nuevo Proveedor";
+            // 
+            // cmbEstatus
+            // 
+            cmbEstatus.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbEstatus.FormattingEnabled = true;
+            cmbEstatus.Items.AddRange(new object[] { "Activo", "Inactivo" });
+            cmbEstatus.Location = new Point(194, 300);
+            cmbEstatus.Name = "cmbEstatus";
+            cmbEstatus.Size = new Size(200, 33);
+            cmbEstatus.TabIndex = 17;
+            // 
+            // lblEstatus
+            // 
+            lblEstatus.AutoSize = true;
+            lblEstatus.Location = new Point(11, 303);
+            lblEstatus.Name = "lblEstatus";
+            lblEstatus.Size = new Size(68, 25);
+            lblEstatus.TabIndex = 16;
+            lblEstatus.Text = "Estatus:";
             // 
             // txb_telefono
             // 
             txb_telefono.Location = new Point(194, 148);
+            txb_telefono.MaxLength = 10;
             txb_telefono.Name = "txb_telefono";
-            txb_telefono.Size = new Size(150, 31);
+            txb_telefono.Size = new Size(200, 31);
             txb_telefono.TabIndex = 15;
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(11, 148);
+            label7.Location = new Point(11, 151);
             label7.Name = "label7";
             label7.Size = new Size(83, 25);
             label7.TabIndex = 14;
@@ -82,14 +106,15 @@
             // txb_rfc
             // 
             txb_rfc.Location = new Point(194, 96);
+            txb_rfc.MaxLength = 12;
             txb_rfc.Name = "txb_rfc";
-            txb_rfc.Size = new Size(150, 31);
+            txb_rfc.Size = new Size(200, 31);
             txb_rfc.TabIndex = 13;
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(11, 96);
+            label6.Location = new Point(11, 99);
             label6.Name = "label6";
             label6.Size = new Size(47, 25);
             label6.TabIndex = 12;
@@ -97,39 +122,42 @@
             // 
             // cb_categoria
             // 
+            cb_categoria.DropDownStyle = ComboBoxStyle.DropDownList;
             cb_categoria.FormattingEnabled = true;
             cb_categoria.Location = new Point(194, 248);
             cb_categoria.Name = "cb_categoria";
-            cb_categoria.Size = new Size(150, 33);
+            cb_categoria.Size = new Size(200, 33);
             cb_categoria.TabIndex = 11;
             // 
             // btn_agregar
             // 
-            btn_agregar.Location = new Point(117, 356);
+            btn_agregar.BackColor = Color.LightGreen;
+            btn_agregar.Location = new Point(130, 360);
             btn_agregar.Name = "btn_agregar";
-            btn_agregar.Size = new Size(164, 64);
+            btn_agregar.Size = new Size(180, 60);
             btn_agregar.TabIndex = 10;
-            btn_agregar.Text = "Agregar proveedor";
-            btn_agregar.UseVisualStyleBackColor = true;
+            btn_agregar.Text = "Agregar Proveedor";
+            btn_agregar.UseVisualStyleBackColor = false;
+            btn_agregar.Click += btn_agregar_Click;
             // 
             // txb_correo
             // 
             txb_correo.Location = new Point(194, 199);
             txb_correo.Name = "txb_correo";
-            txb_correo.Size = new Size(150, 31);
+            txb_correo.Size = new Size(200, 31);
             txb_correo.TabIndex = 8;
             // 
             // txb_nombre
             // 
             txb_nombre.Location = new Point(194, 46);
             txb_nombre.Name = "txb_nombre";
-            txb_nombre.Size = new Size(150, 31);
+            txb_nombre.Size = new Size(200, 31);
             txb_nombre.TabIndex = 5;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(11, 199);
+            label4.Location = new Point(11, 202);
             label4.Name = "label4";
             label4.Size = new Size(161, 25);
             label4.TabIndex = 3;
@@ -140,14 +168,14 @@
             label2.AutoSize = true;
             label2.Location = new Point(11, 251);
             label2.Name = "label2";
-            label2.Size = new Size(92, 25);
+            label2.Size = new Size(88, 25);
             label2.TabIndex = 1;
             label2.Text = "Categoría:";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(11, 46);
+            label1.Location = new Point(11, 49);
             label1.Name = "label1";
             label1.Size = new Size(82, 25);
             label1.TabIndex = 0;
@@ -159,7 +187,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(groupBox1);
             Name = "ControlDeUsuarioAgregarProveedor";
-            Size = new Size(405, 431);
+            Size = new Size(460, 460);
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ResumeLayout(false);
@@ -179,5 +207,7 @@
         private Label label4;
         private Label label2;
         private Label label1;
+        private ComboBox cmbEstatus;
+        private Label lblEstatus;
     }
 }

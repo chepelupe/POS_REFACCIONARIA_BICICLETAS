@@ -31,13 +31,13 @@
     <Compile Update="FormComprasNuevaCompra.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormInicioSesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FormMenuAgregarProveedores.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormInventario.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="FormInicioSesion.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormInterfazVentas.cs">
