@@ -1,61 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="controlDeUsuarioAgregarProducto.cs">
+    <Compile Update="ControlDeUsuario\controlDeUsuarioAgregarProducto.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="ControlDeUsuarioAgregarProveedor.cs">
+    <Compile Update="ControlDeUsuario\controlDeUsuarioAgregarProveedor.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="controlDeUsuarioProductosCategorias.cs">
+    <Compile Update="ControlDeUsuario\controlDeUsuarioProductosCategorias.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="controlDeUsuarioInfoProveedor.cs">
+    <Compile Update="ControlDeUsuario\controlDeUsuarioInfoProveedor.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="controlDeUsuarioProveedoresCategorias.cs">
+    <Compile Update="ControlDeUsuario\controlDeUsuarioProveedoresCategorias.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="FormBuscarProducto.cs">
+    <Compile Update="Forms\FormBuscarProducto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormCaja.cs">
+    <Compile Update="Forms\FormCaja.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormClientes.cs">
+    <Compile Update="Forms\FormClientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormCompras.cs">
+    <Compile Update="Forms\FormCompras.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormComprasNuevaCompra.cs">
+    <Compile Update="Forms\FormComprasNuevaCompra.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormInicioSesion.cs">
+    <Compile Update="Forms\FormInicioSesion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormMenuAgregarProveedores.cs">
+    <Compile Update="Forms\FormMenuAgregarProveedores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormInventario.cs">
+    <Compile Update="Forms\FormInventario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormInterfazVentas.cs">
+    <Compile Update="Forms\FormInterfazVentas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormMenuAgregarProductos.cs">
+    <Compile Update="Forms\FormMenuAgregarProductos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormMenuOpciones.cs">
+    <Compile Update="Forms\FormMenuOpciones.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormProveedor.cs">
+    <Compile Update="Forms\FormProveedor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormReportes.cs">
+    <Compile Update="Forms\FormReportes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormEmpleados.cs">
+    <Compile Update="Forms\FormEmpleados.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
